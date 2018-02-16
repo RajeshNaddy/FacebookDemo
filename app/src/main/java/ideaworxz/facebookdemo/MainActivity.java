@@ -24,10 +24,12 @@ public class MainActivity extends AppCompatActivity {
         ArrayList<ItemImage> Pathitems = new ArrayList<>();
         List<ItemList> mItemList = new ArrayList<>();
         int currentOffset = 0;
-        public String Image1 = "https://en.wiktionary.org/wiki/cat#/media/File:Cat03.jpg";
-        public String Image2 = "https://en.wiktionary.org/wiki/cat#/media/File:Cat03.jpg";
-        public String Image3 = "https://en.wiktionary.org/wiki/cat#/media/File:Cat03.jpg";
-        public String Image4 = "https://en.wiktionary.org/wiki/cat#/media/File:Cat03.jpg";
+
+        //I have used same images
+        public String Image1 = "http://p.imgci.com/db/PICTURES/CMS/263600/263697.20.jpg";
+        public String Image2 = "http://p.imgci.com/db/PICTURES/CMS/263600/263697.20.jpg";
+        public String Image3 = "http://p.imgci.com/db/PICTURES/CMS/263600/263697.20.jpg";
+        public String Image4 = "http://p.imgci.com/db/PICTURES/CMS/263600/263697.20.jpg";
         AsymmetricRecyclerView recyclerView;
 
         @Override
